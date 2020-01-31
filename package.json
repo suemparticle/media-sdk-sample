@@ -1,0 +1,22 @@
+{
+  "name": "web2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --content-base dist/ --open",
+    "watch": "webpack -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@mparticle/web-media-sdk": "^1.2.1",
+    "@mparticle/web-sdk": "^2.9.5-rc.3",
+    "livereload": "^0.8.2",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  }
+}
