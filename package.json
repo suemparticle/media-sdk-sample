@@ -12,8 +12,11 @@
   "license": "ISC",
   "type": "module",
   "dependencies": {
+    "@mparticle/web-appboy-kit": "^2.0.6",
+    "@mparticle/web-google-analytics-kit": "^2.1.9",
     "@mparticle/web-media-sdk": "^1.2.1",
     "@mparticle/web-sdk": "^2.9.5-rc.3",
+    "express": "^4.17.1",
     "livereload": "^0.8.2",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10",
